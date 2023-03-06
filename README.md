@@ -19,3 +19,21 @@ Actions:
         result: success
         pages: README.md
 ```
+
+```yml
+rule:
+    branch: main
+settings:
+    Actions:
+        Workflow permissions: RW
+    Pages:
+        Build and deployment:
+            Source: Deploy from a branch
+            Branch: None
+Actions:
+    push:
+        result: success
+    pages build and deployment:
+        result: success
+        pages: README.md
+```
